@@ -1,5 +1,4 @@
 FROM mariadb:10.4
-MAINTAINER toughiq@gmail.com
 
 RUN apt-get update && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
